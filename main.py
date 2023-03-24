@@ -2,9 +2,9 @@ import asyncio
 import locale
 
 from aiogram import Bot, Dispatcher, executor
+
 from config import Config
 from news_parser import get_news
-
 
 locale.setlocale(locale.LC_TIME, "Russian")
 

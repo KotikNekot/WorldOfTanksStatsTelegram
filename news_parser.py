@@ -6,7 +6,6 @@ import aiohttp
 from bs4 import BeautifulSoup
 from dateparser import parse
 
-
 BASE_URL: str = "https://wotexpress.info"
 
 
